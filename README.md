@@ -11,7 +11,7 @@ First, clone this repository into the directory of your choice:
     $ git clone git@github.com:ewilson/flask-starter.git
 
 Next, if necessary, install Flask (either globally or into a virtual environment).
-(USE `sudo` ONLY IF _NOT_ USING VIRTUALENV)
+(USE `sudo` ONLY IF _NOT_ USING `virtualenv`)
 
     $ sudo pip install -r requirements.txt
 
@@ -21,8 +21,8 @@ Next, if necessary, install Flask (either globally or into a virtual environment
 
 Now navigate to [localhost:5000](http://localhost:5000/) to verify that it is running locally. Other URLs to hit:
 
-http://localhost:5000/hello?name=Hezekiah
-http://localhost:5000/goodbye/Charlie
+[http://localhost:5000/hello?name=Hezekiah](http://localhost:5000/hello?name=Hezekiah)
+[http://localhost:5000/goodbye/Charlie](http://localhost:5000/goodbye/Charlie)
 
 Examine `flask-starter.py` and see if you can understand what is going on.
 
