@@ -21,8 +21,8 @@ Next, if necessary, install Flask (either globally or into a virtual environment
 
 Now navigate to [localhost:5000](http://localhost:5000/) to verify that it is running locally. Other URLs to hit:
 
-[http://localhost:5000/hello?name=Hezekiah](http://localhost:5000/hello?name=Hezekiah)
-[http://localhost:5000/goodbye/Charlie](http://localhost:5000/goodbye/Charlie)
+- [http://localhost:5000/hello?name=Hezekiah](http://localhost:5000/hello?name=Hezekiah)
+- [http://localhost:5000/goodbye/Charlie](http://localhost:5000/goodbye/Charlie)
 
 Examine `flask-starter.py` and see if you can understand what is going on.
 
