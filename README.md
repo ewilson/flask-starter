@@ -11,8 +11,9 @@ First, clone this repository into the directory of your choice:
     $ git clone git@github.com:ewilson/flask-starter.git
 
 Next, if necessary, install Flask (either globally or into a virtual environment).
+(USE `sudo` ONLY IF _NOT_ USING VIRTUALENV)
 
-    $ pip install -r requirements.txt
+    $ sudo pip install -r requirements.txt
 
 #### Running the application
 
