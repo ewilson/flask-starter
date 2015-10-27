@@ -18,16 +18,14 @@ Next, if necessary, install Flask (either globally or into a virtual environment
 
     $ python flask-starter.py
 
-Now navigate to [localhost:5000](http://localhost:5000/) to verify that it is running locally. Other URLs to hit:
+Now navigate to [localhost:5000](http://localhost:5000/) to verify that it is running locally. On that page there
+will be links to the other examples.
 
-http://localhost:5000/hello?name=Hezekiah
-http://localhost:5000/goodbye/Charlie
-
-Examine `flask-starter.py` and see if you can understand what is going on.
+Examine `flask-starter.py` and the templates and see if you can understand what is going on.
 
 #### Templates
 
-Notice that the `hello.html` and `bye.html` templates extend the `base.html` template, when establishes the `title`
+Notice that the `hello.html`, `bye.html`, and `form.html` templates extend the `base.html` template, when establishes the `title`
 and links to `style.css`. Also notice that Flask expects you to use a `templates` folder.
 
 #### Debug mode
@@ -35,6 +33,3 @@ and links to `style.css`. Also notice that Flask expects you to use a `templates
 You may notice `debug=True` in `flask-starter.py`. You shouldn't have this in production, but it is extremely useful
 in development. In particular, it allows for automatic reloading of your application on each save.
 
-#### Forms
-
-TODO -- should have an example of form data.

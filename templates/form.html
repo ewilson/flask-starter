@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block body %}
+    <h2>Example Form</h2>
+    <form action="/form-example" method="post">
+        <label>First name: <input type="text" name="firstname"/></label><br/>
+        <label>Last name: <input type="text" name="lastname"/></label><br/>
+        <input type="submit" value="Submit"><br/>
+    </form>
+
+    {% if info %}
+        <h3>Submitted name:</h3>
+        <p>{{ info['firstname'] }} {{ info['lastname'] }}</p>
+    {% endif %}
+
+{% endblock %}
